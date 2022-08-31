@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/SecondFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.borong.FirstFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first" >
+
+        <action
+            android:id="@+id/action_FirstFragment_to_InfoProduct"
+            app:destination="@id/InfoProduct" />
+        <argument
+            android:name="PilihanKategori"
+            app:argType="integer"
+            android:defaultValue="1" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.borong.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second" >
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/action_SecondFragment_to_QRScanner"
+            app:destination="@id/QRScanner" />
+    </fragment>
+    <fragment
+        android:id="@+id/InfoProduct"
+        android:name="com.borong.InfoProduct"
+        android:label="@string/info_product_label"
+        tools:layout="@layout/info_product" >
+
+        <argument
+            android:name="ProductDescriptionArgument"
+            app:argType="string"
+            android:defaultValue="lol" />
+    </fragment>
+    <fragment
+        android:id="@+id/QRScanner"
+        android:name="com.borong.QRScanner"
+        android:label="@string/qr_scanner_label"
+        tools:layout="@layout/fragment_qr_scanner" >
+
+    </fragment>
+</navigation>

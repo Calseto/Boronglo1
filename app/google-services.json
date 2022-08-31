@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "108069203304",
+    "firebase_url": "https://boronglo-store.firebaseio.com",
+    "project_id": "boronglo-store",
+    "storage_bucket": "boronglo-store.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:108069203304:android:da3d4066906cec2525fadd",
+        "android_client_info": {
+          "package_name": "com.boronglo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "108069203304-1fjfhl2mi56ka9q700kjbv8u5dgrg145.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.boronglo",
+            "certificate_hash": "7e22511ff61897061ad5c2c0bcd0106bf4358540"
+          }
+        },
+        {
+          "client_id": "108069203304-65td1jmfd2mpmo8vjp1dgeg6t51s9q2f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvhBEsFhD1F2Tw8fIPG15sBy5yWtf3y2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "108069203304-65td1jmfd2mpmo8vjp1dgeg6t51s9q2f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
